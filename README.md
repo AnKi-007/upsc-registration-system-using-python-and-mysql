@@ -9,6 +9,9 @@ This project is a CLI-based registration system for UPSC applicants using Python
 - View registered details
 - Uses MySQL database backend
 
+  ![Language](https://img.shields.io/badge/language-SQL-blue.svg)
+
+
 ## Setup Instructions
 
 1. **Install MySQL Server**
