@@ -1,10 +1,17 @@
+-- Create the UPSC database if it doesn't exist
 CREATE DATABASE IF NOT EXISTS upsc;
 USE upsc;
+
+-- Login information table
 CREATE TABLE IF NOT EXISTS login_info (
     username VARCHAR(50) PRIMARY KEY,
     password VARCHAR(50) NOT NULL
 );
+
+-- Insert default admin login credentials
 INSERT INTO login_info (username, password) VALUES ('admin', 'admin123');
+
+-- Registration information table
 CREATE TABLE IF NOT EXISTS registration_information (
     reg_no INT AUTO_INCREMENT PRIMARY KEY,
     aadhar_no BIGINT,
