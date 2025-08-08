@@ -1,15 +1,3 @@
--- Create database
-CREATE DATABASE IF NOT EXISTS upsc;
-USE upsc;
-
--- Create login_info table
-CREATE TABLE IF NOT EXISTS login_info (
-    username VARCHAR(50) PRIMARY KEY,
-    password VARCHAR(50) NOT NULL
-);
-
--- Optionally insert test login (you can remove this in production)
-INSERT INTO login_info (username, password) VALUES ('admin', 'admin123');
 
 -- Create registration_information table
 CREATE TABLE IF NOT EXISTS registration_information (
@@ -40,4 +28,18 @@ CREATE TABLE IF NOT EXISTS registration_information (
     sainik_milt_sch INT,
     son_sainik_mil_sch INT,
     name VARCHAR(100)
+);
+
+INSERT INTO registration_information (
+    aadhar_no, father_name, mother_name, examination_applied, year, gender,
+    date_of_birth, nationality, marital_status, community, minority,
+    add_1, add_2, add_3, dist, state, pin_code, pho_no, mobile_no,
+    e_mail, education_qualification, preference, p_f_cds_pabt,
+    sainik_milt_sch, son_sainik_mil_sch, name
+) VALUES (
+    123456789012, 'Rajesh Kumar', 'Sunita Devi', 'CDS', 2025, 'Male',
+    '2000-04-15', 'Indian', 'Single', 'General', 'No',
+    '123 MG Road', 'Sector 5', 'Near Park', 'Lucknow', 'Uttar Pradesh', 226001,
+    9123456789, 9876543210, 'anand@example.com', 'B.Sc Physics', 'IMA>OTA>AFA',
+    0, 0, 1, 'Anand Kishore'
 );
