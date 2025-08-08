@@ -1,0 +1,35 @@
+(venv) C:\Users\anand\Downloads\upsc-registration-system>python main.py
+Enter username: Akki
+Enter password: Db_JaiShreeRAM@01
+=== UPSC REGISTRATION SYSTEM ===
+1: Add Registration Details
+2: View Registered Details
+3: Quit
+Enter your choice: 1
+Examination applied: CDS
+Year: 22
+Name: Anand Kishore
+Gender: Male
+Date of birth (DD/MM/YYYY): 07/06/2003
+Father's name: abc Kumar
+Mother's name: xyz Kumari
+Nationality: Indian
+Marital status: Unmarried
+Community: Hindu
+Minority (Yes/No): No
+Address line 1: Fl. No. 103
+Address line 2: Janardhan Nagar
+Address line 3: Lohegaon
+District: Pune
+State: Maharashtra
+PIN code: 411047
+Phone number: 0123458703
+Mobile number: 9187465921
+Email: JaiShREERam007@gmail.com
+Education qualification: Appearing for Final Year (B.Tech Data Science)
+Aadhar number: 301452778904
+Preference: AFA>IMA>OTA
+Failed in CPSS/PABT (1/0): 0
+Student of Sainik/Military School (1/0): 0
+Son of Military Personnel in Sainik School (1/0): 0
+Successfully registered. Your Registration No. is: 1
