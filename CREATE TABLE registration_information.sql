@@ -28,20 +28,3 @@ CREATE TABLE registration_information (
     name VARCHAR(100) NOT NULL
 );
 
-
--- INSERT INTO registration_information (
---     aadhar_no, father_name, mother_name, examination_applied, year, gender,
---     date_of_birth, nationality, marital_status, community, minority,
---     add_1, add_2, add_3, dist, state, pin_code, pho_no, mobile_no,
---     e_mail, education_qualification, preference, p_f_cds_pabt,
---     sainik_milt_sch, son_sainik_mil_sch, name
--- ) VALUES (
---     302477658125, 'abc Kumar', 'xyz Kumari', 'CDS', 22, 'Male',
---     '2003-06-07', 'Indian', 'Unmarried', 'Hindu', 'No',
---     'fl. no. 103', 'lohegaon', 'Pune', 'Pune', 'Maharashtra', 411047,
---     1245325698, 9142352698, 'jaishreeram007@gmail.com',
---     'Appearing for Final Year (B.Tech Data Science)', 'AFA>IMA>OTA', 0,
---     0, 0, 'Anand Kishore'
--- );
-
-  -- you can insert values like this while your registration.
