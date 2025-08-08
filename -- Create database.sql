@@ -1,5 +1,4 @@
 
--- Create registration_information table
 CREATE TABLE IF NOT EXISTS registration_information (
     reg_no INT AUTO_INCREMENT PRIMARY KEY,
     aadhar_no BIGINT,
@@ -43,3 +42,4 @@ INSERT INTO registration_information (
     9123456789, 9876543210, 'anand@example.com', 'B.Sc Physics', 'IMA>OTA>AFA',
     0, 0, 1, 'Anand Kishore'
 );
+
